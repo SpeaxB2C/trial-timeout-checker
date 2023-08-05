@@ -1,0 +1,35 @@
+{
+  "name": "odebase",
+  "version": "0.0.0",
+  "description": "A codebase for SPEAX-B2C server application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "lint": "prettier . --write",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpeaxB2C/codebase.git"
+  },
+  "author": "SPEAX-B2C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpeaxB2C/codebase/issues"
+  },
+  "homepage": "https://github.com/SpeaxB2C/codebase#readme",
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "prettier": "^3.0.1",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "config": "^3.3.9",
+    "pino": "^8.15.0",
+    "pino-pretty": "^10.2.0"
+  }
+}
