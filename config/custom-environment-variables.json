@@ -5,5 +5,10 @@
       "__name": "LOG_PRETTY_PRINT_ENABLED",
       "__format": "boolean"
     }
-  }
+  },
+  "authentication": {
+    "apiKey": "AUTHENTICATION_API_KEY",
+    "apiSecret": "AUTHENTICATION_API_SECRET",
+    "baseUrl": "AUTHENTICATION_URL"
+}
 }
