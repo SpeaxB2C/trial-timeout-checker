@@ -1,4 +1,4 @@
-import logger from "./logger";
+import logger from "./util/logger";
 
 export function hello(who: string): string {
   return `Hello ${who}!`;

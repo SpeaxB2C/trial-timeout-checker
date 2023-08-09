@@ -6,9 +6,9 @@
       "__format": "boolean"
     }
   },
-  "authentication": {
-    "apiKey": "AUTHENTICATION_API_KEY",
-    "apiSecret": "AUTHENTICATION_API_SECRET",
-    "baseUrl": "AUTHENTICATION_URL"
+  "api": {
+    "key": "API_KEY",
+    "secret": "API_SECRET",
+    "baseUrl": "API_BASE_URL"
 }
 }
